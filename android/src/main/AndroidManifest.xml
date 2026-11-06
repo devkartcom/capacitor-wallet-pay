@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+        Deliberately NO com.google.android.gms.wallet.api.enabled meta-data here: a
+        library manifest merges it into every host app unconditionally. The host app
+        declares it itself, per brand (customer app: cowork-switch step 04 writes it
+        from the brand shard's app.json `googlePay`).
+    -->
+    <application />
+</manifest>

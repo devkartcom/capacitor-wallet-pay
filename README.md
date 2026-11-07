@@ -40,7 +40,7 @@ SaaS platforms and MVPs. We run this plugin in production in our own two product
 - **[SuperApp](https://www.superapphq.com)**: a white-label multi-vertical marketplace
   platform for food delivery, retail and supermarkets.
 
-Questions or issues: open a GitHub issue, or write to contact@devkart.com.
+Questions or issues: open an issue in this repository, or reach us through [devkart.com/contact](https://devkart.com/contact).
 
 ## License
 

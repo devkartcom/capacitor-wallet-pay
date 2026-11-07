@@ -1,6 +1,6 @@
 {
-  "name": "@aybinv7/capacitor-wallet-pay",
-  "version": "0.1.0",
+  "name": "@devkartcom/capacitor-wallet-pay",
+  "version": "0.1.2",
   "description": "Capacitor plugin for gateway-agnostic Apple Pay (PassKit) and Google Pay (Google Pay API) that returns the raw wallet payment token.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,16 +11,24 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "Aybinv7CapacitorWalletPay.podspec",
+    "DevkartcomCapacitorWalletPay.podspec",
     "Package.swift"
   ],
-  "author": "devsaran",
+  "author": "Devkart Technologies LLP",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devsaran/capacitor-wallet-pay.git"
+    "url": "git+https://github.com/devkartcom/capacitor-wallet-pay.git"
   },
-  "keywords": ["capacitor", "plugin", "apple-pay", "google-pay", "passkit", "wallet", "finix"],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "apple-pay",
+    "google-pay",
+    "passkit",
+    "wallet",
+    "finix"
+  ],
   "scripts": {
     "build": "rimraf ./dist && tsc && rollup -c rollup.config.mjs"
   },
@@ -36,7 +44,15 @@
     "@capacitor/core": ">=8.0.0"
   },
   "capacitor": {
-    "ios": { "src": "ios" },
-    "android": { "src": "android" }
-  }
+    "ios": {
+      "src": "ios"
+    },
+    "android": {
+      "src": "android"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/devkartcom/capacitor-wallet-pay/issues"
+  },
+  "homepage": "https://github.com/devkartcom/capacitor-wallet-pay#readme"
 }

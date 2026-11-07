@@ -2,10 +2,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "Aybinv7CapacitorWalletPay",
+    name: "DevkartcomCapacitorWalletPay",
     platforms: [.iOS(.v15)],
     products: [
-        .library(name: "Aybinv7CapacitorWalletPay", targets: ["Aybinv7CapacitorWalletPay"])
+        .library(name: "DevkartcomCapacitorWalletPay", targets: ["DevkartcomCapacitorWalletPay"])
     ],
     dependencies: [
         .package(
@@ -15,7 +15,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Aybinv7CapacitorWalletPay",
+            name: "DevkartcomCapacitorWalletPay",
             dependencies: [
                 .product(name: "Capacitor", package: "capacitor-swift-pm"),
                 .product(name: "Cordova", package: "capacitor-swift-pm")
